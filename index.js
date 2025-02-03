@@ -7,7 +7,7 @@ console.log('new thing')
 app.use(express.json())
 app.use("",productRouter)
 
-app.listen('5000',()=>console.log('server running on 5000))
+app.listen('5000',()=>console.log('server running on 5000'))
 
 mongoose.connect('mongodb+srv://vengateshwari2004:Vengatesh2004@cluster.pn74o.mongodb.net/?retryWrites=true&w=majority&appName=cluster')
      .then(()=>console.log('database connected...'))
