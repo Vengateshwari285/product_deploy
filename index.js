@@ -13,6 +13,6 @@ mongoose.connect('mongodb+srv://vengateshwari2004:Vengatesh2004@cluster.pn74o.mo
      .then(()=>console.log('database connected...'))
      .catch((err)=>console.log(err))
 
-//app.get('/',(req,res)=>{
-    //res.send('server reacted...')
-//})
+app.get('/',(req,res)=>{
+    res.send('server reacted...')
+})
