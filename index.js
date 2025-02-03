@@ -2,6 +2,7 @@ const express = require('express')
 const app = express();
 const mongoose=require('mongoose')
 const productRouter =require('./Routes/ProductRoutes')
+console.log('new thing')
 
 app.use(express.json())
 app.use("",productRouter)
